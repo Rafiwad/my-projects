@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.header-main-instrument {
+    padding-right: 590px;
+    display: flex;
+    margin-top: 15px;
+}
+
+.header-main-what {
+    display: flex;
+    margin: 20px;
+    word-spacing: -3%;
+}
+
+.header-main-nav ul{
+    display: flex;
+    font-family: courier;
+    justify-content: flex-end;
+    white-space: nowrap;
+}
+
+.header-main-nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    display: flex;
+    margin-top: 150px;
+    margin-left: 10px;
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    margin-top: 40px;
+    margin-left: 10px;
+    font-family: Arial;
+    font-size: 1.4em;
+}
+
+button {
+border-radius: 200px;
+border: 1px solid;
+padding: 10px 20px;
+cursor: pointer;
+font-size: 2em;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}

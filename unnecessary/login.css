@@ -1,0 +1,18 @@
+body {
+    background-color: #cdcdcd;
+    background-origin: padding-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body-main-email {
+    width: fit-content;
+    height: 10%;
+    border: 3px;
+    border-radius: 2px 4px 4px;
+    border-color: #61b1be;
+}
+
+.body-main-email {
+    border: 2px;
+    border-radius: 4px;
+}

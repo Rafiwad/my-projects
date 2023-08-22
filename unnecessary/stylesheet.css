@@ -1,0 +1,19 @@
+body {
+    background-image: url(/web5.jpg);
+    width: max-content;
+    height: 75px;
+    color: #f2f3ff;
+    background-repeat: no-repeat;
+}
+
+h1 {
+color: beige;
+}
+
+.form-div input{
+    border: 2px;
+    border-radius: 4px;
+    margin: 12px;
+    width: max-content;
+    padding: 25px;
+}

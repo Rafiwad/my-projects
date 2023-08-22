@@ -1,0 +1,107 @@
+body {
+    overflow: hidden;
+    background-image: url(/web4.jpg);
+    border-image-width: fit-content;
+    }
+
+    a {
+        cursor: pointer;
+    }
+    
+    .header-main {
+        width: 100%;
+        height: 60px;
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-main-select {
+        margin-top: 50px;
+    }
+    
+    .header-main-nav {
+        width: fit-content;
+        height: 100%;
+        background-color: #fff;   
+    }
+
+    .header-main-nav ul {
+        list-style: none;
+    }
+
+    .header-main-nav ul li {
+        display: inline;
+        float: left;
+        margin: 10px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .header-main-nav ul li a {
+        line-height: 20px;
+        padding: 10px;
+        display: block;
+        height: 100%;
+    }
+
+    .header-main-nav ul li a:hover {
+    counter-reset: none;
+    }
+
+    .header-main-logo {
+        width: fit-content;
+        height: 100%;
+        background-color: #fff;
+        display: flex;
+    }
+
+    .header-main-logo img {
+        height: 40px;
+        align-self: center;
+    }
+    .header-main-sm {
+        padding: 60px;
+        width: fit-content;
+        height: 100%;
+        display: flex;
+        column-gap: 10px;
+        margin-top: 50px;
+    
+    }
+
+    .header-main-sm-fb {
+        width: 20px;
+        height: 20px;
+        background-image: url(../facebooklogo.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        margin-top: 20px;
+    }
+
+    .header-main-sm-in {
+        width: 20px;
+        height: 20px;
+        background-image: url(../instagramlogo.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 20px;
+    }
+
+    .header-main-sm-gh {
+        width: 20px;
+        height: 20px;
+        background-image: url(../githublogo.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 20px;
+    }
+
+    .header-main-sm-wp {
+        width: 20px;
+        height: 20px;
+        background-image: url(../whatsapplogo.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 20px;
+        margin-right: 10px;
+    }

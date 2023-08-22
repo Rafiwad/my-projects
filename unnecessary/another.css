@@ -1,0 +1,128 @@
+body {
+    overflow: hidden;
+    background-color: #ccc1ac;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ 
+.header-main {
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-main-nav {
+    width: fit-content;
+    height: 100%;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.header-main-nav ul {
+    list-style: none;
+}
+
+.header-main-nav ul li {
+    display: inline;
+    float: left;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header-main-nav ul li a {
+    line-height: 20px;
+    padding: 10px;
+    display: block;
+    height: 100%;
+}
+
+.header-main-nav ul li a:hover {
+    counter-reset: none;
+}
+
+.header-main-logo {
+        width: fit-content;
+        height: 100%;
+        background-color: #fff;
+        display: flex;
+    }
+
+.header-main-logo img {
+ height: 40px;
+ align-self: center;
+}
+
+.header-main-login {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding-top: 10px;
+    align-self: center;
+    margin-left: 40px;
+    text-align: right;
+    justify-content: right;
+}
+
+.header-main-start-now {
+    background-color: lightblue;
+    text-emphasis-color: white;
+    border-radius: 3px;
+    padding-top: 10px;
+    align-self: center;
+    border-style: groove;
+    border-width: 1px 2px 3px 4px;
+    border-top: #ccc1ac;
+    border-left-color: burlywood;
+    border-bottom: chocolate;
+    list-style: none;
+}
+
+.header-main-start-now ul {
+    list-style-type: none;
+}
+
+ .btn {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0.5em 1em;
+    color: var(--clr-accent);
+    background-color: var(--clr-rgba);
+    border: 10px solid var(--clr-accent);
+    border-radius: 5px;
+
+   transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+    transition: all 0.3s;
+ }
+
+ .btn:hover {
+    transform: translateY(-10px);
+    background-color: var(--clr-accent);
+    color: var(--clr-light);
+ }
+
+ @keyframes slideInleft {
+    from {
+        transform: translateX(-300px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+ }
+
+ .heading-1 {
+    animation-name: slideInleft 1s ease-in 1s 1 normal forwards;
+   animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+
+    transform: translateX(-150px);
+ }
