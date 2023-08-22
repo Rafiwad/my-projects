@@ -35,6 +35,33 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
+//*.image1 {
+    height: 250px;
+    width: 150px;
+    position: absolute;
+    bottom: 50px;
+}
+
+.image2 {
+    height: 250px;
+    width: 150px;
+    position: absolute;
+    right: 300px;
+    bottom: 50px;
+}
+
+.image3 {
+    height: 250px;
+    width: 150px;
+    position: absolute;
+    right: 620px;
+    bottom: 50px;
+}**//
+
+.header-main-nav {
+    height: 200px;
+    width: 1500px;
+}
 p {
     margin-top: 40px;
     margin-left: 10px;
@@ -47,7 +74,7 @@ border-radius: 200px;
 border: 1px solid;
 padding: 10px 20px;
 cursor: pointer;
-font-size: 2em;
+font-size: 50%;
 }
 
 button a {
